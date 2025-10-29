@@ -23,4 +23,7 @@ Projeto de estudo de **Programação Orientada a Objetos (POO)** em Java, aplica
 
 ## Saída esperada
 
-esperar commit da imagem
+<p align="center">
+  <img src="images/SaidaConsoleTestaAluno.png" alt="Saída do console" width="500"/>
+</p>
+
