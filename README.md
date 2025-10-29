@@ -23,27 +23,5 @@ Estudo de **Programação Orientada a Objetos (POO)** em Java aplicando:
 
 ## Saída do Console
 
-```text
---- Dados da Pessoa ---
-Nome: José
-Endereço: Rua Antonio Marques, 30
-RG: 3.698.222-8
-CPF: 568.234.981-15
+<img width="495" height="762" alt="Image" src="https://github.com/user-attachments/assets/47fed0d1-0055-4120-82f0-ff6c31266f96" />
 
-=========================
-
---- Dados do Aluno ---
-Nome: Pedro
-Endereço: Rua Almeida, 20
-RG: 4.687.098-2
-CPF: 456.876.123-12
-Matrícula: 59751
-Nota P1: 4.5
-Nota P2: 8.0
-Faltas: 10
-
---- Status do Aluno ---
-Média: 6.25
-Resultado: Exame / Reavaliação
-
-Process finished with exit code 0
