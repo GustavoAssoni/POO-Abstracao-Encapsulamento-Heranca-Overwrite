@@ -7,7 +7,7 @@ public class Aluno extends Pessoa {
     private final double MEDIA_APROVACAO = 7.0;
     private final double MEDIA_REPROVACAO = 3.0;
 
-    // Construtor padrão (sem parâmetros)
+    // Construtor padrão (default)
     public Aluno() {}
 
     // Construtor com parâmetros
@@ -20,7 +20,7 @@ public class Aluno extends Pessoa {
         this.faltas = faltas;
     }
 
-    // Imprime todos os dados do aluno (inclusive os da classe Pessoa)
+    // Imprime todos os dados do aluno
     public void imprimeAluno() {
         imprimePessoa();
         System.out.println("Matrícula: " + matricula);
