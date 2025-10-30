@@ -4,7 +4,7 @@ public class Pessoa {
     private String rg;
     private String cpf;
 
-    // Construtor padrão (sem parâmetros)
+    // Construtor padrão (default)
     public Pessoa() {}
 
     // Construtor com parâmetros
