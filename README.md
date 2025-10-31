@@ -1,27 +1,31 @@
-# Projeto TestaAluno - Java POO
+# Projeto CartaoWeb - Java POO
 
 ## Objetivo
 Estudo de **Programação Orientada a Objetos (POO)** em Java aplicando:
 - **Herança**
-- **Encapsulamento**
-- **Construtores**
+- **Polimorfismo**
+- **Classes Abstratas**
 - **Métodos**
 
 ## Estrutura do projeto
-- `Pessoa.java` → classe base com dados pessoais.
-- `Aluno.java` → classe derivada de Pessoa, com matrícula, notas e faltas.
-- `TestaAluno.java` → classe principal com o método main para testar as classes.
+- `CartaoWeb.java` → classe abstrata base com o atributo `destinatario` e método abstrato `showMessage()`.
+- `DiaDosNamorados.java` → classe derivada que exibe mensagem personalizada para o Dia dos Namorados.
+- `Natal.java` → classe derivada que exibe mensagem de Natal.
+- `Aniversario.java` → classe derivada que exibe mensagem de aniversário.
+- `Principal.java` → classe principal com o método `main` que cria os objetos e exibe as mensagens.
 
 ## Funcionalidades
-- Exibir dados de uma pessoa.
-- Exibir dados de um aluno.
-- Calcular média do aluno e determinar status: **Aprovado**, **Reavaliação** ou **Reprovado**.
+- Criar diferentes tipos de cartões web com mensagens específicas.
+- Demonstrar o uso de **herança** e **polimorfismo** ao instanciar diferentes subclasses a partir de uma classe abstrata.
+
+## 🛠️ Tecnologias Utilizadas
+- `Java 22`
+- `IntelliJ IDEA`
+- `Git & GitHub`
 
 ## Como executar
 1. Abra o projeto no **IntelliJ IDEA**.
-2. Compile e execute a classe `TestaAluno.java`.
+2. Compile e execute a classe `Principal.java`.
 
 ## Saída do Console
-
-<img width="495" height="762" alt="Image" src="https://github.com/user-attachments/assets/47fed0d1-0055-4120-82f0-ff6c31266f96" />
 
